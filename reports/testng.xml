@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<!--  <test name="one">
+	<packages>
+	<package name="frame2" />
+	</packages>
+	</test>-->
+	<test name="two">
+	<groups>
+	<run>
+	<include name="smoke" />
+	</run>
+	</groups>
+	</test>
+	
+	<!--  <groups>
+	<run>
+	<include name="smoke" />
+	</run>
+	</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="frame2.Parent"/>
+      <class name="frame2.Child">
+      <methods> 
+      <exclude name="mid" /> 
+      </methods>
+      </class>
+    </classes>
+  </test> 
+  
+   <test name="test2">
+  <classes>
+  	<class name="frame4.parent_1"/>
+  	 <class name="frame4.Child_1"/>
+  </classes>
+  </test>-->
+</suite> <!-- Suite -->
